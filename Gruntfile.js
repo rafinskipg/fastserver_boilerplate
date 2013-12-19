@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 
     // configurable paths
     var config = {
-        app: ''
+        app: 'app'
     };
 
 
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
                 port: 9000,
                 // Change this to '0.0.0.0' to access the server from outside.
                 hostname: 'localhost',
-                open: 'Pomodairo.html',
+                open: 'index.html',
                 livereload: LIVERELOAD_PORT
             },
             livereload: {
